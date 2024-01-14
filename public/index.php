@@ -1,7 +1,13 @@
 <?php
 
-require_once '../vendor/autoload.php';
+require '../vendor/autoload.php';
 
-include 'src/views/home.php';
+$filePath = '../src/Views/home.php';
+
+if (file_exists($filePath)) {
+    include $filePath;
+} else {
+    echo "El archivo $filePath no existe.";
+}
 
 ?>
