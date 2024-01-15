@@ -18,7 +18,15 @@
         <article>
             <div class="row1">
                 <div class="box">
-                    
+                    <div class="description">
+                        <h1 class="title">Cristian Lafuente</h1>
+                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet in quo reiciendis sapiente, adipisci, molestias ex molestiae nesciunt id exercitationem sint non maxime nihil dolore possimus dolorem incidunt placeat.</p>
+                        <div class="buttons">
+                            <a download href="">Descarga mi CV</a>
+                            <a download href="">Descarga mi CV</a>
+                        </div>
+                    </div>
+                    <div class="image"></div>
                 </div>
             </div>
             <div class="row2">
