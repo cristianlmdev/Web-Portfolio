@@ -11,9 +11,9 @@
     <main>
         <article id="menu">
             <div id="menu-header">
-                <span><a href="#" onclick="scroll_to_element('#row1')">Inicio</a></span>
-                <span><a href="#" onclick="scroll_to_element('#row2')">Sobre mí</a></span>
-                <span><a href="#" onclick="scroll_to_element('#row3')">Contacto</a></span>
+                <span><a href="#" onclick="scroll_to_element('.row1', event)">Inicio</a></span>
+                <span><a href="#" onclick="scroll_to_element('.row2', event)">Sobre mí</a></span>
+                <span><a href="#" onclick="scroll_to_element('.row3', event)">Contacto</a></span>
             </div>
         </article>
         <article>
