@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/script.js"></script>
     <title>Home</title>
 </head>
 <body>
     <main>
         <article id="menu">
             <div id="menu-header">
-                <span><a href="">Home</a></span>
-                <span><a href="">About</a></span>
-                <span><a href="">Contact</a></span>
+                <span><a href="#" onclick="scroll_to_element('#row1')">Inicio</a></span>
+                <span><a href="#" onclick="scroll_to_element('#row2')">Sobre mí</a></span>
+                <span><a href="#" onclick="scroll_to_element('#row3')">Contacto</a></span>
             </div>
         </article>
         <article>
-            <div class="row1">
+            <div class="row1" id="row1">
                 <div class="box">
                     <div class="description">
                         <h1 class="title">Cristian Lafuente</h1>
@@ -29,13 +30,24 @@
                     <div class="image"></div>
                 </div>
             </div>
-            <div class="row2">
+            <div class="row2" id="row2">
 
+            </div>
+            <div class="row3" id="row3">
+                <div class="box-form">
+                    <h1 class="contact">Contacto</h1>
+                    <form action="" method="post">
+                        <input type="text" name="" id="" placeholder="Nombre">
+                        <input type="email" name="" id="" placeholder="Email">
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>
+                </div>
             </div>
         </article>
         <article id="footer">
             <div>
-
+                <p>FOOTER</p>
             </div>
         </article>
     </main>
