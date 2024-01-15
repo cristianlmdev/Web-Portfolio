@@ -27,7 +27,18 @@
                             <a download href="">Descarga mi CV</a>
                         </div>
                     </div>
-                    <div class="image"></div>
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+
+                            </div>                            
+                            <div class="flip-card-back">
+                                <a href="" class="github"></a>
+                                <a href="">Linkedin</a>
+                                <a href="">Email</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row2" id="row2">
