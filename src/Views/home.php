@@ -24,21 +24,14 @@
                         <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet in quo reiciendis sapiente, adipisci, molestias ex molestiae nesciunt id exercitationem sint non maxime nihil dolore possimus dolorem incidunt placeat.</p>
                         <div class="buttons">
                             <a download href="">Descarga mi CV</a>
-                            <a download href="">Descarga mi CV</a>
+                        </div>
+                        <div class="social-media">
+                            <a href="" class="github"></a>
+                            <a href=""></a>
+                            <a href=""></a>
                         </div>
                     </div>
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-
-                            </div>                            
-                            <div class="flip-card-back">
-                                <a href="" class="github"></a>
-                                <a href="">Linkedin</a>
-                                <a href="">Email</a>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="image"></div>
                 </div>
             </div>
             <div class="row2" id="row2">

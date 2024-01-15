@@ -56,57 +56,28 @@ h1.title{
     font-weight: 900;
 }
 
-.flip-card{
-    background-color: transparent;
-    width: 650px;
-    height: 400px;
-    perspective: 1000px;
-    border-radius: 50%;
-
-}
-
-.flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 50%;
-}
-  
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 40px;
-  }
-  
-  .flip-card-front {
+.image{
     background-image: url('/img/avatarios.png');
     color: black;
     box-shadow: 0px 0px 18px 18px #445266;
-  }
-  
-  .flip-card-back {
-    background-color: #445266;
-    color: white;
-    transform: rotateY(180deg);
-    box-shadow: 0px 0px 18px 18px #445266;
-  }
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 50%;
+}
 
-  a.github{
+.image::before {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+}
+
+div.social-media{
+    display: flex;
+    gap: 40px;
+}
+
+a.github{
     width: 50px;
     height: 50px;
     color: white;
@@ -114,7 +85,9 @@ h1.title{
     background-image: url('/img/githubicon.png');
     background-repeat: no-repeat;
     background-size: cover;
-  }
+    box-shadow: 0px 0px 14px 2px #445266;
+    border-radius: 50%;
+}
 
 
 .description{
@@ -128,6 +101,7 @@ h1.title{
 div.buttons{
     display: flex;
     gap: 40px;
+    margin-bottom: 40px;
 }
 
 div.buttons a{
