@@ -41,19 +41,30 @@
     justify-content: center;
 }
 
+h1.title{
+    margin-bottom: 1%;
+    font-size: 40px;
+    font-weight: 900;
+}
+
 .box{
     width: 80%;   
     height: 80%;
     display: flex;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     gap: 40px;
 }
 
-h1.title{
-    margin-bottom: 1%;
-    font-size: 100px;
-    font-weight: 900;
+.box2{
+    display: flex;
+    flex-direction: column;
+    width: 80%;   
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
 
 .image{
@@ -62,7 +73,7 @@ h1.title{
     box-shadow: 0px 0px 18px 18px #445266;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -145,7 +156,7 @@ div.buttons a:hover{
 
 .row2{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background-color: #07090a;
     display: flex;
     flex-direction: column;
@@ -158,7 +169,7 @@ div.buttons a:hover{
     color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -173,7 +184,7 @@ div.buttons a:hover{
     color: black;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 700px;
+    width: 200px;
     border-radius: 50%;
 }
 
@@ -249,15 +260,198 @@ img.avatarcontact{
     background-color: #000000;
 }
 
-div.timeline{
-    display: flex;
-    width: 100%;
+
+
+@media only screen and (min-width:768px){
+
+    .box2{
+        display: flex;
+        flex-direction: row;
+        width: 80%;   
+        height: 80%;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .box{
+        width: 80%;   
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .image{
+        background-image: url('/img/avatarios.png');
+        color: black;
+        box-shadow: 0px 0px 18px 18px #445266;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 700px;
+        border-radius: 50%;
+    }
+
+    .imageabout{
+        background-image: url('/img/avatarthink.png');
+        color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 500px;
+        border-radius: 50%;
+    }
+
+    .imagepc{
+        background-image: url('/img/avatarpc.png');
+        color: black;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 700px;
+        border-radius: 50%;
+    }
+
+    h1.title{
+        margin-bottom: 1%;
+        font-size: 100px;
+        font-weight: 900;
+    }
+
+    .time-line-box {
+        height: 100px; 
+        padding: 100px 0;
+        width: 100%;
+        background-color: #07090a;
+      }
+      
+      .time-line-box .timeline {
+        list-style-type: none;
+        display: flex;
+        padding: 0;
+        text-align: center;
+      }
+      
+      .time-line-box .timestamp {
+        margin: auto;
+        margin-bottom: 5px;
+        padding: 0px 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .time-line-box .timestamp span {
+        margin-top: 20px;
+        padding: 5px;
+        color: #07090a;
+        background-color: white;
+        font-weight: bold;
+        border-radius: 8px;
+      }
+    
+      .time-line-box .timestamp span:before {
+        content: '';
+        width: 0px;
+        background-color: transparent;
+        position: absolute;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid rgb(255, 255, 255);
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+        left: 50%;
+        top: 0%;
+        -webkit-transform: translate(-50%, 30%);
+      } 
+      
+      .time-line-box .timestamp span:after {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background-color: #445266;
+        border-radius: 12px;
+        border: 2px solid #445266;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: all 200ms ease-in;
+      }
+      
+      .time-line-box .status {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: center;
+        border-top: 3px solid #445266;
+        position: relative;
+      }
+    
+      .time-line-box .status span.status-show {
+        margin-top: 20px;
+        padding: 5px;
+        color: #07090a;
+        background-color: white;
+        font-weight: bold;
+        border-radius: 8px;
+      }
+    
+      .time-line-box .status span.status-show:before {
+        content: '';
+        width: 12px;
+        height: 12px;
+        background-color: #445266;
+        border-radius: 12px;
+        border: 2px solid #445266;
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: all 200ms ease-in;
+      } 
+      
+      .time-line-box .status span.status-show:after {
+        content: '';
+        width: 0px;
+        background-color: transparent;
+        position: absolute;
+        border-top: 8px solid transparent;
+        border-bottom: 8px solid rgb(255, 255, 255);
+        border-right: 8px solid transparent;
+        border-left: 8px solid transparent;
+        left: 50%;
+        top: 0%;
+        -webkit-transform: translate(-50%, 30%);
+      }
+      
+      .swiper-container {
+        width: 95%; 
+        margin: auto;
+        overflow-y: auto;
+      }
+      .swiper-wrapper{
+        display: inline-flex;
+        flex-direction: row;
+        overflow-y:auto;
+        justify-content: center;
+      }
+    
+      .swiper-container::-webkit-scrollbar{
+        height: 2px;
+      }
+    
+      .swiper-slide {
+        text-align: center;
+        font-size: 12px;
+        width: 200px;
+        height: 100%;
+        position: relative;
+      }
+    
 }
 
-div.line{
-    background-color: aquamarine;
-    width: 100%;
-    height: 2px;
-}
 
 
