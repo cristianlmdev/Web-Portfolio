@@ -9,5 +9,12 @@
             "email": "cristian.lafuente.martinez@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
 }
