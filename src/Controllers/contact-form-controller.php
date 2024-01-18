@@ -28,6 +28,9 @@ class Contact_Form_Controller
 
 
         $this->send_mail($name, $email, $text);
+
+        header('Location: ' . $_SERVER['PHP_SELF']);
+
     }
 
     public function send_mail($name, $email, $text)
