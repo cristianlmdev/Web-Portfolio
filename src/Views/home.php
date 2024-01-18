@@ -1,6 +1,3 @@
-<?php
-require '../vendor/autoload.php';
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,8 +5,8 @@ require '../vendor/autoload.php';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <script src="/js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <script src="public/js/script.js"></script>
     <title>Home</title>
 </head>
 
@@ -83,7 +80,7 @@ require '../vendor/autoload.php';
             <div class="row3" id="row3">
                 <div class="box-form">
                     <h1 class="contact">Contacto</h1>
-                    <img src="/img/avatarcontact.png" alt="" srcset="" class="avatarcontact">
+                    <img src="public/img/avatarcontact.png" alt="" srcset="" class="avatarcontact">
                     <form action="" method="post">
                         <input type="text" name="name" id="" placeholder="Nombre">
                         <input type="email" name="email" id="" placeholder="Email">
