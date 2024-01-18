@@ -1,0 +1,20 @@
+{
+    "name": "crist/web-portfolio",
+    "description": "Proyecto web portfolio",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "clafuentem",
+            "email": "cristian.lafuente.martinez@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
