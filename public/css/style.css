@@ -14,17 +14,17 @@
 }
 
 #menu-header{
-    float: right;
     height: 100%;
     display: flex;
     align-items: center;
     gap: 40px;
     padding: 30px;
+    justify-content: center;
 }
 
 #menu-header span{
     color: white;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 #menu-header span > a{
@@ -32,9 +32,15 @@
     text-decoration: none;
 }
 
+.row{
+    width: 100%;
+    height: 10vh;
+    background-color: #07090a;
+}
+
 .row1{
     width: 100%;
-    height: 100vh;
+    height: 90vh;
     background-color: #07090a;
     display: flex;
     align-items: center;
@@ -42,8 +48,7 @@
 }
 
 h1.title{
-    margin-bottom: 1%;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 900;
 }
 
@@ -54,7 +59,7 @@ h1.title{
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 20px;
 }
 
 .box2{
@@ -76,6 +81,7 @@ h1.title{
     width: 200px;
     border-radius: 50%;
 }
+
 
 .image::before {
     content: '';
@@ -264,6 +270,34 @@ img.avatarcontact{
 
 @media only screen and (min-width:768px){
 
+    .row1{
+        width: 100%;
+        height: 100vh;
+        background-color: #07090a;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .row{
+        width: 0;
+        height: 0;
+    }
+
+    #menu-header{
+        float: right;
+    }
+
+    #menu-header span{
+        font-size: 30px;
+    }
+
+    h1.title{
+        margin-bottom: 1%;
+        font-size: 40px;
+        font-weight: 900;
+    }
+
     .box2{
         display: flex;
         flex-direction: row;
@@ -308,7 +342,7 @@ img.avatarcontact{
         color: black;
         background-repeat: no-repeat;
         background-size: cover;
-        width: 700px;
+        width: 500px;
         border-radius: 50%;
     }
 
@@ -449,6 +483,61 @@ img.avatarcontact{
         width: 200px;
         height: 100%;
         position: relative;
+      }
+
+      div.skills{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 30px;
+      }
+
+      div.skills span{
+        width: 100%;
+        height: 25px;
+        border: 1px solid white;
+      }
+      
+      span.bar{
+        display: block;
+        text-align: center;
+      }
+      
+      span.php span.bar{
+        width: 95%;
+        height: 23px;
+        background-color: #445266;
+        border: none;
+      }        
+          
+      
+      span.javascript span.bar{
+        width: 90%;
+        height: 23px;
+        background-color: #445266;
+        border: none;
+      }        
+       
+      
+      span.html span.bar{
+        width: 95%;
+        height: 23px;
+        background-color: #445266;
+        border: none;
+      }      
+      
+      span.css span.bar{
+        width: 95%;
+        height: 23px;
+        background-color: #445266;
+        border: none;
+      }      
+      
+      span.sql span.bar{
+        width: 75%;
+        height: 23px;
+        background-color: #445266;
+        border: none;
       }
     
 }

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -14,12 +13,15 @@
     <main>
         <article id="menu">
             <div id="menu-header">
-                <span><a href="#" onclick="scroll_to_element('.row1', event)">Inicio</a></span>
+                <span><a href="#" onclick="scroll_to_element('.row', event)">Inicio</a></span>
                 <span><a href="#" onclick="scroll_to_element('.row2', event)">Sobre mí</a></span>
                 <span><a href="#" onclick="scroll_to_element('.row3', event)">Contacto</a></span>
             </div>
         </article>
         <article>
+            <div class="row">
+
+            </div>
             <div class="row1" id="row1">
                 <div class="box">
                     <div class="description">
@@ -56,7 +58,7 @@
                                     <div class="swiper-slide">
                                         <div class="timestamp"><span class="date"></span></div>
                                         <div class="status"><span class="status-show">Programador</span></div>
-                                    </div>                                   
+                                    </div>
                                 </div>
                                 <div class="swiper-pagination"></div>
                             </div>
@@ -66,7 +68,36 @@
                 <div class="box">
                     <div class="description">
                         <h1 class="title">Habilidades</h1>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet in quo reiciendis sapiente, adipisci, molestias ex molestiae nesciunt id exercitationem sint non maxime nihil dolore possimus dolorem incidunt placeat.</p>
+                        <div class="skills">
+                            <p>PHP</p>
+                            <span class="php">
+                                <span class="bar">95%</span>
+                            </span>
+                            <p>Javascript</p>
+                            <span class="javascript">
+                                <span class="bar">90%</span>
+                            </span>
+                            <p>HTML</p>
+                            <span class="html">
+                                <span class="bar">95%</span>
+                            </span>
+                            <p>CSS</p>
+                            <span class="css">
+                                <span class="bar">95%</span>
+                            </span>
+                            <p>SQL</p>
+                            <span class="sql">
+                                <span class="bar">75%</span>
+                            </span>                            
+                            <p>Wordpress</p>
+                            <span class="sql">
+                                <span class="bar">85%</span>
+                            </span>                            
+                            <p>Prestashop</p>
+                            <span class="sql">
+                                <span class="bar">85%</span>
+                            </span>
+                        </div>
                         <div class="social-media">
                             <a href="" class="github"></a>
                             <a href="mailto:cristian.lafuente.martinez@gmail.com?subject=Contacto página web Portfolio" class="email"></a>

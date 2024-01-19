@@ -7,12 +7,19 @@ require 'vendor/autoload.php';
 $form = new Contact_Form_Controller();
 $form->get_mail_params();
 
-$filePath = 'src/Views/home.php';
+$file_path = 'src/Views/home.php';
+$file_maintenance = 'src/Views/maintenance.php';
 
-if (file_exists($filePath)) {
-    include $filePath;
-} else {
-    echo "El archivo $filePath no existe.";
+$maintenance = false;
+
+if ($maintenance) {
+    include $file_maintenance;
+}else{
+    if (file_exists($file_path)) {
+        include $file_path;
+    } else {
+        echo "El archivo $file_path no existe.";
+    }
 }
 
 ?>
