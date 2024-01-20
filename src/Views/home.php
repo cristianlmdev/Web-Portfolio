@@ -113,8 +113,8 @@
                     <h1 class="contact">Contacto</h1>
                     <img src="public/img/avatarcontact.png" alt="" srcset="" class="avatarcontact">
                     <form action="" method="post">
-                        <input type="text" name="name" id="" placeholder="Nombre">
-                        <input type="email" name="email" id="" placeholder="Email">
+                        <input type="text" name="name" id="" placeholder="Nombre" required>
+                        <input type="email" name="email" id="" placeholder="Email" required>
                         <textarea name="text" id="" cols="30" rows="10"></textarea>
                         <input type="submit" value="Enviar">
                     </form>
