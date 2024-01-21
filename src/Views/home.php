@@ -26,7 +26,8 @@
                 <div class="box">
                     <div class="description">
                         <h1 class="title">Cristian Lafuente</h1>
-                        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet in quo reiciendis sapiente, adipisci, molestias ex molestiae nesciunt id exercitationem sint non maxime nihil dolore possimus dolorem incidunt placeat.</p>
+                        <h2>Junior Full Stack Web Developer</h2><br>
+                        <p class="text">¡Bienvenid@, a mi portfolio! Soy Cristian, un joven esntusiasta de 24 años amante de la tecnología que se embarcó en el viaje del desarrollo web para convertir ideas en realidad. Mi enfoque abarca tanto el frontend como el backend, y me encanta enfrentar desafíos que me permitan aprender y crecer constantemente. </p>
                         <div class="buttons">
                             <a download href="">Descarga mi CV</a>
                         </div>
@@ -48,16 +49,16 @@
                             <div class="swiper-container text-center">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <div class="timestamp"><span class="date"></span></div>
-                                        <div class="status"><span class="status-show">Programador</span></div>
+                                        <div class="timestamp"><span class="date">13/03/2020 - 13/06/2020</span></div>
+                                        <div class="status"><span class="status-show"><span class="company">CIN</span><br> Técnico Sistemas Microinformáticos y Redes</span></div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <div class="timestamp"><span class="date"></span></div>
-                                        <div class="status"><span></span></div>
+                                        <div class="timestamp"><span class="date">12/09/2023 - 11/12/2023</span></div>
+                                        <div class="status"><span class="status-show"><span class="company">Visualpublinet</span><br>Programador Web</span></div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <div class="timestamp"><span class="date"></span></div>
-                                        <div class="status"><span class="status-show">Programador</span></div>
+                                        <div class="timestamp"><span class="date">12/01/2023 - 11/01/2024</span></div>
+                                        <div class="status"><span class="status-show"><span class="company">Visualpublinet</span><br>Programador Web</span></div>
                                     </div>
                                 </div>
                                 <div class="swiper-pagination"></div>
@@ -87,21 +88,16 @@
                             </span>
                             <p>SQL</p>
                             <span class="sql">
-                                <span class="bar">75%</span>
+                                <span class="bar">80%</span>
                             </span>                            
                             <p>Wordpress</p>
-                            <span class="sql">
+                            <span class="wordpress">
                                 <span class="bar">85%</span>
                             </span>                            
                             <p>Prestashop</p>
-                            <span class="sql">
+                            <span class="prestashop">
                                 <span class="bar">85%</span>
                             </span>
-                        </div>
-                        <div class="social-media">
-                            <a href="" class="github"></a>
-                            <a href="mailto:cristian.lafuente.martinez@gmail.com?subject=Contacto página web Portfolio" class="email"></a>
-                            <a href="" class="linkedin"></a>
                         </div>
                     </div>
                     <div class="imagepc"></div>
