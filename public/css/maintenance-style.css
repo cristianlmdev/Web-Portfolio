@@ -10,6 +10,17 @@
 
 h1{
     color: white;
+    text-align: center;
+}
+
+div.box{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    box-shadow: 0px 0px 18px 18px #445266;
 }
 
 main{
@@ -21,17 +32,6 @@ main{
     justify-content: center;
 }
 
-div.box{
-    width: 60%;
-    height: 60%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 6px;
-    box-shadow: 0px 0px 18px 18px #445266;
-}
-
 div.text{
     color: white;
     display: flex;
@@ -39,12 +39,60 @@ div.text{
     align-items: center;
     justify-content: center;
     gap: 15px;
-}
-
-div.container{
-    display: flex;
+    margin: 15px;
+    font-size: 10px;
 }
 
 img{
-    width: 350px;
+    width: 70px;
+    float: right;
+    margin-right: 15px;
+}
+
+ul{
+    margin: 15px;
+}
+
+
+
+@media only screen and (min-width:1160px){
+
+    div.box{
+        width: 60%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 6px;
+        box-shadow: 0px 0px 18px 18px #445266;
+    }
+    
+    main{
+        background-color: #07090a;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+    div.text{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        font-size: medium;
+    }
+    
+    div.container{
+        display: flex;
+    }
+    
+    img{
+        width: 350px;
+    }
 }

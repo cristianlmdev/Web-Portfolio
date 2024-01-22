@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
     <script src="public/js/script.js"></script>
-    <title>Home</title>
+    <title>Portfolio Cristian</title>
 </head>
 
 <body>
@@ -15,6 +15,7 @@
             <div id="menu-header">
                 <span><a href="#" onclick="scroll_to_element('.row', event)">Inicio</a></span>
                 <span><a href="#" onclick="scroll_to_element('.row2', event)">Sobre mí</a></span>
+                <span><a href="#" onclick="scroll_to_element('.box-skills', event)">Habilidades</a></span>
                 <span><a href="#" onclick="scroll_to_element('.row3', event)">Contacto</a></span>
             </div>
         </article>
@@ -66,41 +67,27 @@
                         </section>
                     </div>
                 </div>
-                <div class="box">
-                    <div class="description">
+                <span onclick="scroll_to_element('.box-skills', event)" style="color: white;">Continua leyendo</span>
+                <div class="box-skills">
+                    <div>
                         <h1 class="title">Habilidades</h1>
-                        <div class="skills">
-                            <p>PHP</p>
-                            <span class="php">
-                                <span class="bar">95%</span>
-                            </span>
-                            <p>Javascript</p>
-                            <span class="javascript">
-                                <span class="bar">90%</span>
-                            </span>
-                            <p>HTML</p>
-                            <span class="html">
-                                <span class="bar">95%</span>
-                            </span>
-                            <p>CSS</p>
-                            <span class="css">
-                                <span class="bar">95%</span>
-                            </span>
-                            <p>SQL</p>
-                            <span class="sql">
-                                <span class="bar">80%</span>
-                            </span>                            
-                            <p>Wordpress</p>
-                            <span class="wordpress">
-                                <span class="bar">85%</span>
-                            </span>                            
-                            <p>Prestashop</p>
-                            <span class="prestashop">
-                                <span class="bar">85%</span>
-                            </span>
+                    </div>
+                    <div class="description-skills">
+                        <div class="image-skills">
+                            <img src="public/img/php.png" alt="" srcset="">
+                            <img src="public/img/javascript.png" alt="" srcset="">
+                            <img src="public/img/html.png" alt="" srcset="">
+                            <img src="public/img/css.png" alt="" srcset="">
+                            <img src="public/img/mysql.png" alt="" srcset="">
+                            <img src="public/img/wordpress.png" alt="" srcset="">
+                            <img src="" alt="" srcset="" class="hide show">
+                            <img src="public/img/prestashop.png" alt="" srcset="">
+                            <img src="public/img/git.png" alt="" srcset="">
+                            <img src="public/img/composer.png" alt="" srcset="">
+                            <img src="public/img/woocommerce.png" alt="" srcset="">
+                            <img src="" alt="" srcset="">
                         </div>
                     </div>
-                    <div class="imagepc"></div>
                 </div>
             </div>
             </div>

@@ -50,6 +50,7 @@
 h1.title{
     font-size: 30px;
     font-weight: 900;
+    color: white;
 }
 
 .box{
@@ -66,7 +67,7 @@ h1.title{
     display: flex;
     flex-direction: column;
     width: 80%;   
-    height: 80%;
+    height: 100vh;
     align-items: center;
     justify-content: center;
     gap: 40px;
@@ -266,6 +267,43 @@ img.avatarcontact{
     background-color: #000000;
 }
 
+.image-skills{
+    display: grid;
+    max-width: 100%;
+    border-radius: 6px;
+    padding: 20px;
+    border: 1px solid #ffffff2e;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    align-items: center;
+    background-color: white;
+}    
+
+.image-skills span{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 10px 10px #445266;
+    background-color: #445266;
+    border-radius: 50%;
+} 
+
+.image-skills img{
+    width: 50px;
+    height: auto;
+} 
+
+.box-skills{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
 
 
 @media only screen and (min-width:768px){
@@ -278,6 +316,36 @@ img.avatarcontact{
         align-items: center;
         justify-content: center;
     }
+
+    .image-skills{
+        display: grid;
+        max-width: 80%;
+        border-radius: 6px;
+        padding: 50px;
+        border: 1px solid #ffffff2e;
+        grid-template-columns: repeat(6,1fr);
+        gap: 50px;
+        align-items: center;
+        background-color: white;
+    }    
+    
+    .image-skills span{
+        width: 100px;
+        height: 100px;
+        box-shadow: 0px 0px 10px 10px #445266;
+        background-color: #445266;
+        border-radius: 50%;
+    } 
+    
+    .image-skills img{
+        width: 100px;
+        height: auto;
+    }    
+
+    .show{
+        display: block;
+    }
+    
 
     .row{
         width: 0;
@@ -302,7 +370,7 @@ img.avatarcontact{
         display: flex;
         flex-direction: row;
         width: 80%;   
-        height: 80%;
+        height: 100vh;
         align-items: center;
         justify-content: center;
         gap: 40px;
@@ -316,6 +384,15 @@ img.avatarcontact{
         align-items: center;
         justify-content: center;
         gap: 40px;
+    }    
+    
+    .box-skills{
+        width: 80%;   
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
     }
 
     .image{
@@ -350,6 +427,7 @@ img.avatarcontact{
         margin-bottom: 1%;
         font-size: 100px;
         font-weight: 900;
+        color: white;
     }
 
     .time-line-box {
@@ -386,7 +464,7 @@ img.avatarcontact{
     
       .time-line-box .status span.status-show {
         margin-top: 20px;
-        padding: 5px;
+        padding: 15px;
         color: #07090a;
         background-color: white;
         font-weight: bold;
@@ -447,11 +525,20 @@ img.avatarcontact{
         position: relative;
       }
 
+      div.description-skills{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+      }
+
       div.skills{
         display: flex;
         flex-direction: column;
         gap: 10px;
         margin-bottom: 30px;
+        width: 100%;
+        color: white;
       }
 
       div.skills span{
