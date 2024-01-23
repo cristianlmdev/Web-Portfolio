@@ -13,7 +13,7 @@
     <main>
         <article id="menu">
             <div id="menu-header">
-                <span><a href="#" onclick="scroll_to_element('.row', event)">Inicio</a></span>
+                <span><a href="#" onclick="scroll_to_element('.row1', event)">Inicio</a></span>
                 <span><a href="#" onclick="scroll_to_element('.row2', event)">Sobre mí</a></span>
                 <span><a href="#" onclick="scroll_to_element('.box-skills', event)">Habilidades</a></span>
                 <span><a href="#" onclick="scroll_to_element('.row3', event)">Contacto</a></span>
@@ -21,7 +21,7 @@
         </article>
         <article>
             <div class="row">
-
+                <span class="button-menu"><button>menu</button></span>
             </div>
             <div class="row1" id="row1">
                 <div class="box">
@@ -30,7 +30,7 @@
                         <h2>Junior Full Stack Web Developer</h2><br>
                         <p class="text">¡Bienvenid@, a mi portfolio! Soy Cristian, un joven esntusiasta de 24 años amante de la tecnología que se embarcó en el viaje del desarrollo web para convertir ideas en realidad. Mi enfoque abarca tanto el frontend como el backend, y me encanta enfrentar desafíos que me permitan aprender y crecer constantemente. </p>
                         <div class="buttons">
-                            <a download href="">Descarga mi CV</a>
+                            <a class="download-cv" download href="">Descarga mi CV</a>
                         </div>
                         <div class="social-media">
                             <a href="" class="github"></a>
@@ -67,7 +67,6 @@
                         </section>
                     </div>
                 </div>
-                <span onclick="scroll_to_element('.box-skills', event)" style="color: white;">Continua leyendo</span>
                 <div class="box-skills">
                     <div>
                         <h1 class="title">Habilidades</h1>
@@ -98,7 +97,7 @@
                     <form action="" method="post">
                         <input type="text" name="name" id="" placeholder="Nombre" required>
                         <input type="email" name="email" id="" placeholder="Email" required>
-                        <textarea name="text" id="" cols="30" rows="10"></textarea>
+                        <textarea name="text" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
                         <input type="submit" value="Enviar">
                     </form>
                 </div>

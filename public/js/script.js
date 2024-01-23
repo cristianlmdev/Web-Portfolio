@@ -11,5 +11,20 @@
             }
         };
 
+        const button = document.querySelector('.button-menu');
+        const menu = document.querySelector('#menu');
+
+        let press = false;
+        button.addEventListener('click', (e) => {
+            e.preventDefault();
+            if (!press) {
+                menu.style = 'height:260px;';
+                press = true;
+            } else {
+                menu.style = 'height:0;';
+                press = false;
+            }
+        });
+
     });
 })();
