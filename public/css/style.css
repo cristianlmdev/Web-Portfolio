@@ -205,10 +205,11 @@ div.buttons a:hover{
   .time-line-box .timestamp {
     margin: auto;
     margin-bottom: 5px;
-    padding: 0px 4px;
+    padding: 0px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-size: 20px;
   }
 
   
@@ -220,6 +221,10 @@ div.buttons a:hover{
     position: relative;
   }
 
+  .company{
+    font-size: 20px;
+  }
+
   .time-line-box .status span.status-show {
     margin-top: 20px;
     padding: 15px;
@@ -227,6 +232,7 @@ div.buttons a:hover{
     background-color: white;
     font-weight: bold;
     border-radius: 8px;
+    font-size: 14px;
   }
 
   .time-line-box .status span.status-show:before {
@@ -465,10 +471,110 @@ img.avatarcontact{
         display: none;
     }
 
+    .box2 .description{
+        height: 55%;
+        margin: 0;
+    }    
+    
+    .box2 .description .title{
+        text-align: center;
+    }
+
+    .time-line-box{
+        padding: 0 30px;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .time-line-box .status {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: center;
+        border-top: none;
+        position: relative;
+    }
+    
+    .time-line-box .status span.status-show{
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+      
+    .time-line-box .timestamp {
+        font-size: medium;
+    }      
+        
+    .time-line-box .timestamp .date{
+            display: flex;
+    }
+
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time-line-box .status span.status-show:before {
+        display: none;
+      } 
+      
+      .time-line-box .status span.status-show:after {
+        display: none;
+      }
+
 }
 
 
 @media only screen and (max-width:768px){
+
+    .box2 .description{
+        height: 55%;
+        margin: 0;
+    }    
+    
+    .box2 .description .title{
+        text-align: center;
+    }
+
+    .time-line-box{
+        padding: 0 30px;
+        height: 100%;
+        margin-top: 20px;
+    }
+
+    .time-line-box .status {
+        padding: 0px 10px;
+        display: flex;
+        justify-content: center;
+        border-top: none;
+        position: relative;
+    }
+    
+    .time-line-box .status span.status-show{
+        margin-top: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+      
+    .time-line-box .timestamp {
+        font-size: medium;
+    }      
+        
+    .time-line-box .timestamp .date{
+            display: flex;
+    }
+
+    .swiper-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time-line-box .status span.status-show:before {
+        display: none;
+      } 
+      
+      .time-line-box .status span.status-show:after {
+        display: none;
+      }
 
     .row{
         position: fixed;
@@ -523,13 +629,13 @@ img.avatarcontact{
     }
     
     h1.title{
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 900;
         color: white;
     }
     
     .box{
-        width: 80%;   
+        width: 90%;   
         height: 80%;
         display: flex;
         flex-direction: column-reverse;
@@ -541,12 +647,13 @@ img.avatarcontact{
     .box2{
         display: flex;
         flex-direction: column;
-        width: 80%;   
+        width: 90%;   
         height: 100vh;
         align-items: center;
         justify-content: center;
-        gap: 40px;
+        gap: 0;
     }
+
     
     .image{
         background-image: url('../../public/img/avatarios.png');
@@ -704,7 +811,7 @@ img.avatarcontact{
         display: flex;
         flex-direction: column;
         gap: 20px;
-        width: 45%;
+        width: 100%;
     }
     
     div.box-form form > input{
@@ -773,6 +880,12 @@ img.avatarcontact{
         flex-direction: column;
         /* align-items: center; */
         justify-content: center;
+        gap: 20px;
+    }
+
+    .box-skills h1.title{
+        text-align: center;
+        font-size: 40px;
     }
     
     .hide{

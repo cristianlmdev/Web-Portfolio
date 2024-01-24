@@ -50,15 +50,15 @@
                             <div class="swiper-container text-center">
                                 <div class="swiper-wrapper">
                                     <div class="swiper-slide">
-                                        <div class="timestamp"><span class="date">13/03/2020 - 13/06/2020</span></div>
+                                        <div class="timestamp"><span class="date"><p>13/03/2020</p><p>-</p><p>13/06/2020</p></span></div>
                                         <div class="status"><span class="status-show"><span class="company">CIN</span><br> Técnico Sistemas Microinformáticos y Redes</span></div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <div class="timestamp"><span class="date">12/09/2023 - 11/12/2023</span></div>
+                                        <div class="timestamp"><span class="date"><p>12/09/2023</p><p>-</p><p>11/12/2023</p></span></div>
                                         <div class="status"><span class="status-show"><span class="company">Visualpublinet</span><br>Programador Web</span></div>
                                     </div>
                                     <div class="swiper-slide">
-                                        <div class="timestamp"><span class="date">12/01/2023 - 11/01/2024</span></div>
+                                        <div class="timestamp"><span class="date"> <p>12/01/2023</p><p>-</p><p>11/01/2024</p></span></div>
                                         <div class="status"><span class="status-show"><span class="company">Visualpublinet</span><br>Programador Web</span></div>
                                     </div>
                                 </div>
